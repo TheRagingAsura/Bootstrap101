@@ -1,0 +1,68 @@
+body{
+    background-color: silver;
+    color: white;
+
+}
+
+.navbar {
+    height: 7.5vh;
+}
+
+.nav-left {
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar-brand img{
+    height: 40px;
+
+}
+
+.navsearch {
+    background: url(https://i.postimg.cc/fbCCKsCR/945px-Vector-search-icon-svg.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left:30px;
+}
+
+.navsearch:focus-within {
+    width: 300px;
+    transition: width 300ms ease-in-out;
+}
+
+
+
+
+
+
+.sectionOne .carousel-inner{
+    height: 60vh;
+
+}
+
+.test {
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    top: 90px;
+    left: 0;
+
+}
+
+.sectionthree {
+    height: 60vh;
+    background-color: #F8F9FA;
+}
+
+.sectionfour {
+    height: 60vh;
+    background-color: #b6b6b6;
+}
+
+
+
+.sectionfive {
+    height: 60vh;
+    background-color: #F8F9FA;
+}
