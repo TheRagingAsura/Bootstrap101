@@ -23,32 +23,67 @@ body{
     background: url(https://i.postimg.cc/fbCCKsCR/945px-Vector-search-icon-svg.png);
     background-repeat: no-repeat;
     background-size: 25px;
-    padding-left:30px;
+    padding-left:30px;  
+    vertical-align: middle;
 }
 
 .navsearch:focus-within {
     width: 300px;
-    transition: width 300ms ease-in-out;
+    transition: width 300ms linear;
 }
 
 
 
 
-
+/* Setting up text and search over slideshow */
 
 .sectionOne .carousel-inner{
-    height: 60vh;
-
+    height: 72vh;
 }
 
-.test {
-    font-size: 40px;
-    color: red;
+.overSlideShow {
     position: absolute;
-    top: 90px;
-    left: 0;
+    top: 40%;
+    left: 17%;
+    z-index: 1;
+    line-height: 1;
+}
+
+.slogan1 {
+    color: #E84B93;
+}
+
+.slogan2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* setting up search area */
+.searchingForBar {
+    position: relative;
+    top: 6vh;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 5vh;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .sectionthree {
     height: 60vh;
