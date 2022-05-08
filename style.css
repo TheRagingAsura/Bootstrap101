@@ -23,17 +23,18 @@ body{
     background: url(https://i.postimg.cc/fbCCKsCR/945px-Vector-search-icon-svg.png);
     background-repeat: no-repeat;
     background-size: 25px;
+    background-color: #E9ECEF;
     padding-left:30px;  
     vertical-align: middle;
+    width: 200px ; 
+    transition: width 300ms ease-in-out 300ms;
 }
 
-.navsearch:focus-within {
+.navsearch:focus {
+    background-color: #E9ECEF;
     width: 300px;
-    transition: width 300ms linear;
+
 }
-
-
-
 
 /* Setting up text and search over slideshow */
 
@@ -66,12 +67,18 @@ body{
     background-color: #ffffff;
     border-radius: 25px;
     height: 5vh;
+    width: 54vw;
+    border: 5px #ffffff solid;
 
 }
 
+.topicSearch input{
+    height: 100%;
+}
 
-
-
+.topicSearch input:focus, .topicSearch input:hover {
+    background-color: pink;
+}
 
 
 
