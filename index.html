@@ -84,14 +84,17 @@
     <div class="slogan1"><p>THE BEST HOLIDAY EXPERIENCE</p></div>
     <div class="slogan2">Stay like a local</div>
 
-    <div class="searchingForBar d-flex justify-content-evenly ">
+    <div class="searchingForBar d-grid container ">
+      <div class="row">
 
-      <div class="topicSearch"> <input type="search" class="border-0 "></div>
-      <div class="locationSearch"> <input type="search" class="border-0 shadow-0 form-control"></div>
-      <div class="categoryDropdown"> <input type="search" class="border-0 shadow-0 form-control"></div>
+        <input type="search" placeholder="What are you searching for?"class="col-4 searchbox searchingFor" >
+        <input type="text" name="location" placeholder="Location" class="col-3 searchbox searchingLocation"  id="">
+        <input type="list" class="col-3 searchbox" placeholder="sumin">
+        <!-- should be a drop down searcher? -->
 
+        <input type="submit" class="col-1 h-100 btn btn-primary rounded-pill "  value="SEARCH">
 
-      <input class="h-100 btn btn-primary rounded-pill " type="submit" value="SEARCH">
+      </div>
     </div>
 
   </div>
