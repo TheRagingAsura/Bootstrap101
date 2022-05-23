@@ -99,9 +99,13 @@ body{
 
 
 
+.sectionTwo {
+    background-color: lightgray;
+}
 
-
-
+.sectionTwo img {
+    height: 60px;
+}
 
 
 
