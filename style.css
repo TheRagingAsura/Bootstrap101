@@ -4,6 +4,12 @@ body{
 
 }
 
+/* 
+
+        Navigation setup 
+
+*/
+
 .navbar {
     height: 7.5vh;
 }
@@ -36,7 +42,11 @@ body{
 
 }
 
-/* Setting up text and search over slideshow */
+/* 
+****************************************************************
+                        Section one
+****************************************************************
+*/
 
 .sectionOne .carousel-inner{
     height: 72vh;
@@ -96,33 +106,74 @@ body{
     box-shadow: none;
 }
 
-
+/* 
+****************************************************************
+                        Section two
+****************************************************************
+*/
 
 
 .sectionTwo {
     background-color: lightgray;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+
 }
 
 .sectionTwo img {
     height: 60px;
+    margin-bottom: 2vh;
+}
+
+.text-pink {
+    color: #E83E8C;
 }
 
 
+.sectionTwo .container .secTwoSlogan {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sectionTwo .container .secTwoSlogan2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 7vh;
+}
 
 
-.sectionthree {
+/* 
+****************************************************************
+                        Section Three
+****************************************************************
+*/
+
+.sectionThree {
     height: 60vh;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
 }
 
-.sectionfour {
+
+/* 
+****************************************************************
+                        Section Four
+****************************************************************
+*/
+
+.sectionFour {
     height: 60vh;
     background-color: #b6b6b6;
 }
 
 
+/* 
+****************************************************************
+                        Section Five
+****************************************************************
+*/
 
-.sectionfive {
+
+.sectionFive {
     height: 60vh;
     background-color: #F8F9FA;
 }
