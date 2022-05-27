@@ -141,14 +141,49 @@ body{
     padding-bottom: 7vh;
 }
 
+/* 
+****************************************************************
+                        Section Three
+****************************************************************
+*/
+
+.sectionThree {
+    height: 60vh;
+    /* background-color: #F8F9FA; */
+}
+
+
+.allGuideLink:hover {
+    text-decoration: underline;
+
+}
+
+.allGuideLink a:hover{
+    color: red;
+}
+
+
 .imgTiles {
     margin-top:4vh;
 }
 
-.imgTiles img{
-    height: 120%;
-    width: 120%;
+
+.tile {
+    background-image: url(/imgs/NY.cms);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-size:cover;
+    height: 38vh;
+    border: 1px solid black;
     border-radius: 10px;
+    position: relative;
+    
+}
+
+.tileText {
+    margin:10px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .sectionThree .container .imgTiles .tile {
@@ -161,17 +196,6 @@ body{
     top: -3px;
 }
 
-
-/* 
-****************************************************************
-                        Section Three
-****************************************************************
-*/
-
-.sectionThree {
-    height: 60vh;
-    /* background-color: #F8F9FA; */
-}
 
 
 /* 
