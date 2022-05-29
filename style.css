@@ -60,11 +60,13 @@ body{
     line-height: 1;
 }
 
-.slogan1 {
+.secOneSlogan1 {
     color: #E84B93;
+    letter-spacing:.2rem;
+    font-weight: bold;
 }
 
-.slogan2 {
+.secOneSlogan2 {
     color: white;
     font-size: 70px;
     font-weight: bold;
@@ -114,7 +116,7 @@ body{
 
 
 .sectionTwo {
-    background-color: lightgray;
+    background-color: #F8F9FA;
     padding-bottom: 10vh;
     padding-top: 10vh;
 
@@ -133,6 +135,7 @@ body{
 .sectionTwo .container .secTwoSlogan {
     font-size: 20px;
     font-weight: bold;
+    letter-spacing:.1rem;
 }
 
 .sectionTwo .container .secTwoSlogan2 {
@@ -148,18 +151,32 @@ body{
 */
 
 .sectionThree {
-    height: 60vh;
+    height: 79vh;
     /* background-color: #F8F9FA; */
 }
 
+.secThreeSolgan1 {
+    padding-top: 10vh;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing:.2rem;
+}
+
+.secThreeSolgan2 {
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 5vh;
+    line-height: 2vh;
+}
+
+.allGuideLink {
+    font-size: medium;
+}
 
 .allGuideLink:hover {
     text-decoration: underline;
 
-}
-
-.allGuideLink a:hover{
-    color: red;
 }
 
 
@@ -177,7 +194,6 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     position: relative;
-    
 }
 
 .tileText {
@@ -209,6 +225,21 @@ body{
     background-color: #b6b6b6;
 }
 
+.secFourSolgan1 {
+    padding-top: 10vh;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing:.2rem;
+}
+
+.secFourSolgan2 {
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 5vh;
+    line-height: 2vh;
+    
+}
 
 /* 
 ****************************************************************
