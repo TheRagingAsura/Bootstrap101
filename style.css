@@ -242,17 +242,25 @@ body{
 }
 
 
-.cardImage {
-    background-color: red;
+
+/* attempt at carousel */
+
+.nj-container {
+    height: 60vh;
+    background-color: black;
 }
 
-.host  {
-    border: 1px solid white;
+.nj-carousel {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
 }
 
-
-
-
+.nj-carouselItem{
+    place-self: center;
+    width:25%;
+    background-color: silver;
+}
 
 
 
