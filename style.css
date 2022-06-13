@@ -273,6 +273,10 @@ body{
     border-radius:5px;
 }
 
+
+
+
+
 .nj-card-img {
     position: relative;
     width: 100%;
@@ -286,8 +290,51 @@ body{
     width: 100%;
 }
 
-
+.nj-card-img span {
+    position: absolute;
+    bottom: 20%;
+    left:30%;
+}
  
+.nj-card-img .nj-fav {
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+.nj-card-info {
+    padding:20px 20px 0px 20px;
+    line-height:10px;
+}
+
+.nj-card-title{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nj-card-rating-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.nj-card-price {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grey-text {
+    color: lightgrey;
+}
+
+
+
+
 
 
 
