@@ -253,18 +253,19 @@ body{
 .nj-carousel {
     padding: 0 10vw;
     display:flex;
-    overflow-x: auto;
     scroll-behavior: smooth;
 }
 
 .nj-carouselItem{
     display:absolute;
-    
     width:25%;
     background-color: silver;
 }
 
 .nj-card {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
     margin-right: 40px;
     height:325px;
     width:300px;
@@ -273,7 +274,9 @@ body{
     border-radius:5px;
 }
 
-
+.nj-card:hover{
+    top: -5px;
+}
 
 
 
@@ -296,7 +299,6 @@ body{
     left:30%;
 }
  
-
 .nj-fav{
     position: absolute;
     top: 10%;
