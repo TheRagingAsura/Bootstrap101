@@ -222,7 +222,7 @@ body{
 
 .sectionFour {
     height: 120vh;
-    background-color: #b6b6b6;
+    background-color: #F8F9FA;
 }
 
 .secFourSolgan1 {
@@ -246,21 +246,26 @@ body{
 
 .nj-container {
     position: relative;
-    background-color:black;
     padding:20px;
 }
 
 .nj-carousel {
-    padding: 0 10vw;
+    padding: 20px 0px 20px 0px;
     display:flex;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-.nj-carouselItem{
-    display:absolute;
-    width:25%;
-    background-color: silver;
+.nj-carousel::-webkit-scrollbar {
+    display:none;
 }
+
+/* style for grab? */
+.nj-items.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+  }
+
 
 .nj-card {
     position: relative;
@@ -369,4 +374,35 @@ body{
 .sectionFive {
     height: 60vh;
     background-color: #F8F9FA;
+
+
+}
+.sectionFiveContainer {
+    position: relative;
+    height: 60vh;
+    overflow: hidden;
+}
+.sectionFiveContainer img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom:-90%;
+}
+
+.tester {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 64px;   
+    font-family:'Courier New', Courier, monospace;
+}
+
+.sectionFiveButton {
+    position:relative;
+    top: 70%;
+    left:15%;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
