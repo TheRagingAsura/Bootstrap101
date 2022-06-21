@@ -438,13 +438,25 @@ body{
     font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .testimonialCarousel {
     position: relative;
     height: 50vh;
     background-color:white;
     padding: 5vh 0px 0px 30vh;
-    overflow: hidden;
-    
+    display:flex;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
