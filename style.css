@@ -439,13 +439,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
 .testimonialCarousel {
     position: relative;
     height: 50vh;
@@ -482,7 +475,7 @@ body{
     left: -6%;
 }
 
-.dummyContain {
+.testimonialContain {
     display:flex;
     flex-direction: column;
     padding: 10vh 3vw 0px 4vw;
@@ -502,6 +495,42 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+
+/* 
+****************************************************************
+                        Section Seven
+****************************************************************
+*/
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.articleContainer {
+    height: 550px;
+    width: 450px;
+    border-radius: 7px;
+    margin-right: 20px;
+    background-color: pink ;
+}
+
+.articleImage {
+    height: 50%;
+    width:100%;
+    border-top-left-radius:7px;
+    border-top-right-radius: 7px;
+
+}
+
+.articleText {
+    padding: 10px;
+}
+
+
+
+
 
 
 
