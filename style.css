@@ -514,7 +514,15 @@ body{
     border-radius: 7px;
     margin-right: 20px;
     background-color: pink ;
+    position: relative;
 }
+
+.articleContainer:hover {
+    
+    top: -10px;
+}
+
+
 
 .articleImage {
     height: 50%;
