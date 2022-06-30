@@ -515,14 +515,14 @@ body{
     margin-right: 20px;
     background-color: pink ;
     position: relative;
+    top:0px;
 }
 
 .articleContainer:hover {
-    
     top: -10px;
+    transition: top 0.5s ease;
+
 }
-
-
 
 .articleImage {
     height: 50%;
@@ -537,7 +537,11 @@ body{
 }
 
 
-
+/* 
+****************************************************************
+                        Section Eight
+****************************************************************
+*/
 
 
 
