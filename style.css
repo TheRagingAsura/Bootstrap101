@@ -543,9 +543,33 @@ body{
 ****************************************************************
 */
 
+.sectionEight {
+    margin-top: 20px;
+    width: 100%;
+}
 
+.sectionEightContainer {
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    height: 100px;
+    width: 100%;
+}
 
+.sectionEight {
 
+}
+
+.sectionEightItem {
+}
+
+.sectionEightItem img {
+
+}
+
+.sectionEightItem img:hover{
+    transform: scale(1.5);  
+}
 
 
 
