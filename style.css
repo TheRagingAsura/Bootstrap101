@@ -567,7 +567,7 @@ body{
 
 }
 
-.sectionEightItem img:hover{
+.sectionEightItem:hover{
     transform: scale(1.5);  
 }
 
