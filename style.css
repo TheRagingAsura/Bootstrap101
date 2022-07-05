@@ -505,15 +505,16 @@ body{
 .articles {
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
 .articleContainer {
-    height: 550px;
-    width: 450px;
+    color: black;
+    height: 625px;
+    width: 475px;
     border-radius: 7px;
-    margin-right: 20px;
-    background-color: pink ;
+    margin-right: 30px;
+    background-color: rgb(243, 243, 243) ;
     position: relative;
     top:0px;
 }
@@ -526,7 +527,7 @@ body{
 
 .articleImage {
     height: 50%;
-    width:100%;
+    width: 100%;
     border-top-left-radius:7px;
     border-top-right-radius: 7px;
 
@@ -570,6 +571,41 @@ body{
 .sectionEightItem:hover{
     transform: scale(1.5);  
 }
+
+
+
+
+/* 
+****************************************************************
+                        Footer
+****************************************************************
+*/
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns:400px 400px 400px 400px ;
+
+}
+
+.footer-col-1 {
+    display: flex;
+    flex-direction:column;
+}
+
+.footer-col-2 {
+    display: flex;
+    flex-direction:column;
+}
+
+.footer-col-3 {
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+
 
 
 
