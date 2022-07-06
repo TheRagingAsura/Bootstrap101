@@ -25,3 +25,18 @@ slider.addEventListener('mousemove', (e) => {
   slider.scrollLeft = scrollLeft - walk;
   console.log(walk);
 });
+
+
+
+
+// script for box hover shadow 
+
+let box1 = document.getElementById('Test');
+let box2 = document.getElementById('Test2');
+box1.onclick = function (dummy) {
+  box2.classList.replace("footerSubmit", "test")
+  console.log(dummy);
+
+}
+
+console.log(box1);
