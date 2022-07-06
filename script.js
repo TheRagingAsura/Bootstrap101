@@ -31,12 +31,14 @@ slider.addEventListener('mousemove', (e) => {
 
 // script for box hover shadow 
 
-let box1 = document.getElementById('Test');
-let box2 = document.getElementById('Test2');
-box1.onclick = function (dummy) {
-  box2.classList.replace("footerSubmit", "test")
-  console.log(dummy);
+var box1 = document.getElementById('Test');
+var box2 = document.getElementById('Test2');
 
+// box2.classList.contains('footerSubmit')
+
+box1.onclick = function (Testing) {
+  if (box2 !== box2.classList.contains('footerSubmit')){
+  console.log("test pass");
+  }
+  
 }
-
-console.log(box1);
