@@ -31,14 +31,21 @@ slider.addEventListener('mousemove', (e) => {
 
 // script for box hover shadow 
 
-var box1 = document.getElementById('Test');
-var box2 = document.getElementById('Test2');
+const box1 = document.getElementById('Test');
+const box2 = document.getElementById('Test2');
 
-// box2.classList.contains('footerSubmit')
-
-box1.onclick = function (Testing) {
-  if (box2 !== box2.classList.contains('footerSubmit')){
-  console.log("test pass");
+box1.onfocus = function (Testing) {
+  if (box2.classList.contains('footerSubmit') == true){
+    box2.classList.add('test');
+    box2.classList.remove('footerSubmit');
+    console.log("test pass");
   }
-  
+}
+
+box1.onblur = function (remove) {
+  if (box2.classList.contains('test')){
+    box2.classList.add('footerSubmit');
+    box2.classList.remove('test');
+    console.log("test fail");
+  }
 }
