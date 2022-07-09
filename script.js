@@ -35,17 +35,16 @@ const box1 = document.getElementById('Test');
 const box2 = document.getElementById('Test2');
 
 box1.onfocus = function (Testing) {
-  if (box2.classList.contains('footerSubmit') == true){
-    box2.classList.add('test');
-    box2.classList.remove('footerSubmit');
+  if (box2.classList.contains('footerSearch') == true){
+    box2.classList.add('footerSearchOutline');
     console.log("test pass");
   }
 }
 
 box1.onblur = function (remove) {
-  if (box2.classList.contains('test')){
-    box2.classList.add('footerSubmit');
-    box2.classList.remove('test');
+  if (box2.classList.contains('footerSearchOutline')){
+    box2.classList.add('footerSearch');
+    box2.classList.remove('footerSearchOutline');
     console.log("test fail");
   }
 }
