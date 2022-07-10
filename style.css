@@ -491,7 +491,6 @@ body{
 }
 
 .testimonialName {
-
     font-size: 18px;
     font-weight: bold;
 }
@@ -517,12 +516,13 @@ body{
     background-color: rgb(243, 243, 243) ;
     position: relative;
     top:0px;
+    transition: top 0.2s ease-in-out;
+
 }
 
 .articleContainer:hover {
     top: -10px;
-    transition: top 0.5s ease;
-
+    transition: top 0.2s ease-in-out;
 }
 
 .articleImage {
@@ -545,31 +545,34 @@ body{
 */
 
 .sectionEight {
-    margin-top: 20px;
+    margin-top: 10vh;
     width: 100%;
 }
 
 .sectionEightContainer {
     display: flex;
     flex-direction: row;
-    overflow:hidden;
+    overflow:hidden; 
     height: 100px;
     width: 100%;
 }
 
-.sectionEight {
-
+.sectionEightImages {
+    display:block;
+    height: 100%;
+    width: 7vw;
+    min-width: 7vw;
+    overflow: hidden;
 }
 
-.sectionEightItem {
+.sectionEightImages img {
+    height: 100%;
+    width: 100%;
 }
 
-.sectionEightItem img {
 
-}
-
-.sectionEightItem:hover{
-    transform: scale(1.5);  
+.sectionEightImages img:hover{
+    transform: scale(1.2);  
 }
 
 
