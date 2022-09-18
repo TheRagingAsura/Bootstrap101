@@ -186,14 +186,38 @@ body{
 
 
 .tile {
-    background-image: url(/imgs/NY.cms);
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-size:cover;
     height: 38vh;
     border: 1px solid black;
     border-radius: 10px;
     position: relative;
+}
+
+.tileimg1{
+    background-image: url(/imgs/NY.cms);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-size:cover;
+}
+
+.tileimg2{
+    background-image: url(/imgs/paris.webp);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-size:cover;
+}
+
+.tileimg3{
+    background-image: url(/imgs/barcelona.webp);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-size:cover;
+}
+
+.tileimg4{
+    background-image: url(/imgs/prague.webp);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-size:cover;
 }
 
 .tileText {
@@ -201,6 +225,12 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+.tileText h5 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
 
 .sectionThree .container .imgTiles .tile {
     position: relative;
@@ -584,7 +614,6 @@ body{
 ****************************************************************
 */
 footer {
-    margin-left:15vw;
     margin-top: 10vh;
 }
 
@@ -613,9 +642,11 @@ footer a:hover {
 
 
 .footer-grid {
+    margin-left:15vw;
     display: grid;
     grid-template-columns:400px 200px 200px 500px ;
-    /* outline-offset: none; */
+    margin-bottom: 10vh;
+
 }
 
 .footer-col-1 {
@@ -687,4 +718,24 @@ footer a:hover {
 
 .footerSubmit img {
     height: 70%;
+}
+
+.footerBanner {
+    background-color: black;
+}
+
+.footerBannerContainer {
+    margin-left:15vw;
+    height: 8vh;
+    width: 70%;
+    display:flex;
+    background-color:red;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.footerCards {
+    display: flex;
+    flex-direction: row;
 }
